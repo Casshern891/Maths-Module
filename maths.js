@@ -50,4 +50,11 @@ function firstNPrimes(n) {
     return list;
 }
 
-console.log(firstNPrimes(50));
+function showTimesTable(num) {
+    for(let i = 1; i <= 15; i++) {
+        let result = i * num;
+        console.log(num + " x " + i + " = " + result + "\n");
+    }
+}
+
+showTimesTable(7);
